@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>My Dahlia Collection | Seed What Happens!</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f8f6ef;
+    color: #234f3d;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #fffdf7;
+    padding: 22px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: Georgia, serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #24523e;
+    text-decoration: none;
+}
+
+.logo span {
+    color: #d5a83e;
+}
+
+.home-button {
+    background: #24523e;
+    color: white;
+    padding: 14px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(135deg, #24523e, #758c7e);
+    color: white;
+    padding: 65px 7%;
+    text-align: center;
+}
+
+.hero small {
+    color: #e5bd5c;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.hero h1 {
+    font-family: Georgia, serif;
+    font-size: 48px;
+    margin: 15px 0;
+}
+
+.hero p {
+    font-size: 19px;
+    line-height: 1.6;
+    max-width: 650px;
+    margin: auto;
+}
+
+.collection {
+    padding: 50px 6%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.collection h2 {
+    font-family: Georgia, serif;
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 28px;
+}
+
+.card {
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 5px 18px rgba(0,0,0,.08);
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-content {
+    padding: 22px;
+}
+
+.card h3 {
+    font-family: Georgia, serif;
+    font-size: 28px;
+    margin: 0 0 8px;
+}
+
+.type {
+    color: #c7972e;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+.card p {
+    color: #555;
+    line-height: 1.5;
+}
+
+footer {
+    background: #24523e;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+    .logo {
+        font-size: 21px;
+    }
+
+    .home-button {
+        padding: 11px 16px;
+        font-size: 14px;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <a class="logo" href="index.html">Seed What Happens<span>!</span></a>
+    <a class="home-button" href="index.html">Home</a>
+</header>
+
+<section class="hero">
+    <small>SEED WHAT HAPPENS!</small>
+    <h1>My Dahlia Collection</h1>
+    <p>
+        The dahlias we're growing, propagating and experimenting with
+        here on our five acres on Vancouver Island.
+    </p>
+</section>
+
+<section class="collection">
+
+    <h2>Growing on the Farm</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <img src="hartenaas.jpg" alt="Hartenaas dahlia">
+
+            <div class="card-content">
+                <div class="type">Dahlia Collection</div>
+                <h3>Hartenaas</h3>
+
+                <p>
+                    Part of the Seed What Happens dahlia collection.
+                    We're growing and propagating Hartenaas as our
+                    dahlia adventure develops.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    Seed What Happens! • Vancouver Island, British Columbia
+</footer>
+
+</body>
+</html>
